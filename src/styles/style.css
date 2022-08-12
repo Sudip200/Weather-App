@@ -1,0 +1,56 @@
+.App{
+  display: grid;
+  font-family: Inconsolata;
+}
+.weatherbg{
+ background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg");
+height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.heading{
+  color: white;
+  font-weight: 700;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-primary{
+  margin-top:10px ;
+  border: none;
+  background-color: rgb(99, 213, 228);
+  width: 40%;
+  height: 6vh;
+  font-size: 1.5rem;
+  
+  
+  text-align: center;
+}
+.input-control{
+  width: 40%;
+  height: 6vh;
+}
+.weatherResult{
+   width: 70%;
+   height: 300px;
+  margin:auto;
+margin-bottom: 9%;
+
+}
+.weatherIcon{
+  margin-top: 2rem;
+  width: 100px;
+  height:100px;
+}
+.weatherCity{
+ font-size: 45px;
+}
+.weatherTemp{
+font-size:30px;
+}
+h3{
+  overflow-wrap: break-word;
+
+  font-family: Inconsolata;
+}
